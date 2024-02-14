@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="logo.jpg" alt="No-image" />
+        <h1>A Web Developer</h1>
+      </header>
+      <hr />
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+      <hr />
+      <div class="sidebar">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate web developer with a strong foundation in HTML, CSS,
+          and JavaScript. I have experience in building responsive and
+          user-friendly websites and web applications. My skills also include:
+        </p>
+        <ul>
+          <li>Experience with front-end frameworks like Bootstrap and React</li>
+          <li>
+            Proficiency in back-end technologies such as Node.js and Express.js
+          </li>
+          <li>
+            Knowledge of database management systems like MongoDB and MySQL
+          </li>
+          <li>Understanding of version control systems like Git</li>
+          <li>Ability to collaborate effectively in team environments</li>
+        </ul>
+        <p>
+          I am dedicated to staying updated with the latest web development
+          trends and technologies to deliver high-quality solutions that meet
+          the needs of clients and users.
+        </p>
+      </div>
+
+      <div class="main-content">
+        <h1>My Work Examples</h1>
+        <!-- NAME: BHAVINI SONI -->
+        <!-- EMAIL: sonibhavini3124@gmail.com -->
+        <section>
+          <img src="landing-page.jpg" alt="No-image" width="100%" />
+        </section>
+        <section class="full-width-section">
+          <p>
+            The above is a landing page designed for the Real Estate Company. It
+            was designed using the html css and JavaScript. For the background,
+            background image is used and and there is one input box where you
+            can enter your house address and find the real estate offers in
+            nearby areas.
+          </p>
+        </section>
+      </div>
+
+      <footer>
+        &copy; <span id="currentYear"></span> My Personal Website |
+        sonibhavini3124@gmail.com
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("currentYear").innerText =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
